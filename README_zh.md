@@ -1,11 +1,13 @@
-# CMS Crawler
+<div align="center">
+<h1>CMS Crawler</h1>
+<a href="https://github.com/jason810496/CMS-Crawler">English</a>
+</div>
 
-[English]()
 ## Contest Management System Crawler
 
-A cli tool for **stress testing** [CMS(Contest Management System)](https://github.com/cms-dev/cms) Competitive Programming online judge.
+用來 **壓力測試** [CMS(Contest Management System)](https://github.com/cms-dev/cms) 線上競賽系統的 CLI 工具
 
-## Requirements
+## 套件需求
 ```
 pip3 install requirements.txt
 ```
@@ -13,18 +15,18 @@ pip3 install requirements.txt
 - `bs4`
 - `requests`
 
-## Usage
-use defult `.env` setting:
+## 使用方法
+用預設的 `.env` 訂定:
 ```
 python3 cms-crawler.py
 ```
 
-change setting by command line:
+用 command line 更改設置:
 ```
 python3 cms-crawler.py --file data.csv -v
 ```
 
-available arguments:
+可用的參數:
 ```
 usage: cms-crawler.py [-h] [-v] [-f FILE] [-t THREAD_LIMIT] [--host HOST]
 
@@ -38,10 +40,10 @@ options:
   --host HOST           set host ( Host also can be set in .env file )
 ```
 
-## Testing Data
-Testing data must be stored in a CSV file in the following format: `USER, PASSWORD, QUESTION_NAME, SUBMIT_FILE`.
+## 測試資料
+測試資料必須以該形式 : `USER, PASSWORD, QUESTION_NAME, SUBMIT_FILE` 存成 CSV 檔
 
-## Example
+## 範例
 
 Command : 
 
@@ -49,7 +51,7 @@ Command :
 python3 cms-crawler.py --file data.csv --host https://oj.cms.mywebsite.judge -v
 ```
 
-CSV file : 
+CSV 檔 : 
 ```
 user1,password1,PA,submission/a.cpp
 user2,password2,PB,submission/while.cpp

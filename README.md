@@ -1,9 +1,13 @@
-# CMS Crawler
 
-[中文]()
+
+<div align="center">
+<h1>CMS Crawler</h1>
+<a href="https://github.com/jason810496/CMS-Crawler/blob/master/README_zh.md">中文</a>
+</div>
+
 ## Contest Management System Crawler
 
-A cli tool for **stress testing** [CMS(Contest Management System)](https://github.com/cms-dev/cms) Competitive Programming online judge.
+A CLI tool for **stress testing** [CMS(Contest Management System)](https://github.com/cms-dev/cms) Competitive Programming online judge.
 
 ## Requirements
 ```
